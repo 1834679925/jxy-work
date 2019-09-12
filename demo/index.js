@@ -1,3 +1,1 @@
-document.body.onclick=function(){
-    alert(1)
-}
+document.getElementById("circle").onclick=function(){circle.style.backgroundColor="yellow";}
