@@ -1,1 +1,4 @@
-document.getElementById("circle").onclick=function(){circle.style.backgroundColor="yellow";}
+function bule(){
+           circle=document.getElementById("circle");
+           circle.style.backgroundColor="yellow";   
+       }
