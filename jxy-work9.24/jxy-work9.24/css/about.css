@@ -1,0 +1,169 @@
+/*消除页面空白距离*/
+body{
+	margin: 0;
+	padding: 0;
+}
+/*头部*/
+.header{
+	width: 100%;
+	height: 200px;
+	background-color: #3F51B5;
+}
+/*头部logo图*/
+.logo img{
+	position: absolute;
+	left: 50%;
+	width: 100px;
+	height: 120px;
+	margin: 15px auto;
+}
+/*图片下的文字*/
+.font{
+	font-size: 14px;
+	color: white;
+	position: absolute;
+	left: 50%;
+	margin:160px auto;
+	margin-left:-20px;
+	text-align: center;
+}
+/*列表*/
+.list{
+	width: 100%;
+	height: 45px;
+	background-color: #3A4BA7;
+}
+.list a{
+	text-decoration: none;
+	color: gainsboro;
+	line-height: 42px;
+	font-size: 14px;
+	/*margin-left: 160px;*/
+	/*padding: 40px;*/
+	margin: 10px 100px;
+}
+.list a:hover{
+	color:white;
+}
+/*中间*/
+.container{
+	width: 100%;
+	height:1252px;
+}
+.contant{
+	width: 884px;
+    height: 1220px;
+    margin: 30px auto;
+    border-radius: 2px;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+.title{
+	width: 884px;
+	height: 60px;
+	border: 1px solid gainsboro;
+}
+.title h1{
+	width: 60px;
+	height: 28px;
+	font-size: 24px;
+	font-weight: 300;
+	margin-left: 20px;
+}
+/*图片*/
+.tupian{
+	width: 884px;
+	height: 248px;
+}
+/*内容介绍*/
+.text{
+	width: 884px;
+	height: 880px;
+}
+.text-all{
+	width: 684px;
+	height: 848px;
+	margin: 0 auto;
+	
+}
+/*介绍*/
+.text-all h3{
+	width: 668px;
+	/*height: 32px;*/
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 32px;
+}
+/*文本*/
+.wenben{
+	width: 439px;
+    /*height:304px;*/
+    margin: 8px;
+}
+.wenben p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: rgba(0,0,0,.54);
+}
+/*图片*/
+.team img{
+	width: 190px;
+	height: 190px;
+}
+/*名字*/
+.team #name1{
+	color: #fff;
+	position: relative;
+	right: 180px;
+	bottom: 20px;
+	font-size: 12px;
+}
+.team #f1{
+	width: 190px;
+	height: 50px;
+	background-color: rgba(0,0,0,0.3);
+	display: inline-block;
+	margin-left: -37%;
+}
+#jpg{
+	width: 190px;
+	height: 190px;
+	margin-left: 30px;
+}
+.team #name2{
+	color: #fff;
+	position: relative;
+	right: 180px;
+	bottom: 20px;
+	font-size: 12px;
+}
+.team #f2{
+	width: 190px;
+	height: 50px;
+	background-color: rgba(0,0,0,0.3);
+	display: inline-block;
+	margin-left: -37%;
+}
+/*底部*/
+.footer{
+	width:100% ;
+	height: 100px;
+	background-color: #424242;
+}
+.copy{
+	color: #fff;
+	font-size: 14px;
+	padding: 32px 16px;
+	margin-left: 25%;
+	
+}
+.footer>.copy>a:nth-child(1){
+	border-bottom: 1px dashed #fff;
+	text-decoration: none;
+	color: #fff;
+}
+.footer>.copy>a:nth-child(2){
+	text-decoration: none;
+	color: darkgray;
+	margin-left: 10px;
+}
