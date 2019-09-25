@@ -162,3 +162,8 @@ body{
 	text-decoration: none;
 	color: #fff;
 }
+.footer>.copy>a:nth-child(2){
+	text-decoration: none;
+	color: darkgray;
+	margin-left: 10px;
+}
