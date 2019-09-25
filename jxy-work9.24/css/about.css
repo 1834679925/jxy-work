@@ -38,9 +38,9 @@ body{
 	color: gainsboro;
 	line-height: 42px;
 	font-size: 14px;
-	/*margin-left: 160px;*/
-	/*padding: 40px;*/
-	margin: 10px 100px;
+	margin-left: 80px;
+	padding: 45px;
+	/*margin: 10px 60px;*/
 }
 .list a:hover{
 	color:white;
