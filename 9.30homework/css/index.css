@@ -1,0 +1,153 @@
+/* 这是一个css文件 */
+*{
+    margin: 0;
+    padding: 0;
+}
+div.container>div#gr{
+    margin-top: -3px;
+    height: 130px;
+    background-color: #73b320;
+}
+div.int{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -80px;
+}
+div.detail{
+    display: flex;
+}
+div.detail>img{
+    width: 50px;
+    height: 50px;
+}
+div.text{
+    margin-left: 10px;
+}
+div.text>h4{
+    color: #333333;
+    font-weight: 600;
+    font-size: 15px;
+}
+div.text>p{
+    color: #fff;
+    font-size: 15px;
+}
+div.a{
+    margin-top: 100px;
+}
+ul.nav{
+    display: flex;
+}
+ul.nav>li{
+    line-height: 57px;
+    padding: 0 30px;
+}
+ul.nav>li:nth-child(1){
+    margin-left: 30%;
+    width: 173px;
+    height: 57px;
+    line-height: 57px;
+    text-align: center;
+    background-color: #53baff;
+}
+ul.nav>li:nth-child(1)>a{
+    font-size: 17px;
+    color: #fff;
+}
+ul.nav>li>a{
+    font-size: 17px;
+    font-weight: 600;
+    outline: none;
+}
+div.imgs{
+    width: 1140px;
+    margin-top: 30px;
+}
+
+div.imgs>a img{
+    border: 1px solid #eeeeee;
+    width: 250px;
+    height: 250px;
+    padding: 0 15px;
+}
+div.imgs>a img:hover{
+    border: 1px solid orange;
+}
+div.name>a{
+    display: inline-block;
+    font-size: 15px;
+    padding-top: 10px;
+}
+div.name>a:nth-child(2){
+    padding-left: 130px;
+}
+div.name>a:nth-child(3){
+    padding-left: 130px;
+}
+div.name>a:nth-child(4){
+    padding-left: 130px;
+}
+div.star>img{
+    padding-top: 10px;
+}
+div.star>img:nth-child(2){
+    padding-left:200px;
+}
+div.star>img:nth-child(3){
+    padding-left:200px;
+}
+div.star>img:nth-child(4){
+    padding-left:200px;
+}
+div.price>span{
+    padding-top: 10px;
+    font-size: 15px;
+    display: inline-block;
+    color: red;
+}
+div.price>span:nth-child(2){
+    padding-left: 235px;
+}
+div.price>span:nth-child(3){
+    padding-left: 235px;
+}
+div.price>span:nth-child(4){
+    padding-left: 235px;
+}
+div.big-img>img{
+    width: 1140px;
+    margin-top: 50px;
+}
+div.banner{
+    margin-top: 50px;
+    display: flex;
+}
+div.banleft,div.banright{
+    width: 560px;
+}
+div.banright{
+    margin-left: 20px;
+}
+div.banleft>img,div.banright>img{
+    width: 560px;
+    height: 207px;
+}
+div#line-left,div#line-right{
+    display: flex;
+    border-bottom: 2px solid #005e99;
+}
+div#tab,div#com{
+    width: 52px;
+    height: 45px;
+    background-image: url(img/6.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: #005e99;
+}
+div#line-left>h2,div#line-right>h2{
+    box-sizing: border-box;
+    width: 508px;
+    line-height: 45px;
+    padding-left: 10px;
+    background-color: #eff4f7;
+}

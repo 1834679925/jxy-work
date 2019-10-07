@@ -1,0 +1,84 @@
+/*五张图*/
+.container{
+	width:100%;
+}
+.image{
+	width: 1160px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+/*图片加内容*/
+.all{
+	width: 1160px;
+	height: 535px;
+}
+.left{
+	width: 665px;
+	height: 535px;
+}
+.left img{
+	width: 302px;
+	height: 216px;
+}
+/*细节*/
+.detial{
+	width: 302px;
+	height: 180px;
+	float: left;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	text-align: center;
+}
+a:hover{
+	color: #008000;
+}
+.date a{
+	font-size: 12px;
+	text-align: center;
+}
+p{
+	font-size: 14px;
+	color: darkgrey;
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+.font{
+	color: #00BFFF;
+	text-align: center;
+	margin-left: 160px;
+}
+.right{
+	/*height: 216px;*/
+	width: 445px;
+	float: right;
+	margin-top: -530px;
+}
+.right img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-left: 160px;
+}
+/*小圆点*/
+.circle span{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+/*轮播图*/
+.lbp{
+	margin-top: -80px;
+	margin-left: 100px;
+}
+.lbp img{
+	margin-left: 10px;
+	width:190x ;
+	height: 75px;
+	border: 1px solid lightgray;
+}
