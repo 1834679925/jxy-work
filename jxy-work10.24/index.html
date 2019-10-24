@@ -1,10 +1,33 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>DOM</title>
-	</head>
-	<body>
-		
-	</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+        签到:<input type="text" id="in1"><span>请签到</span>
+        <span id="span">
+        	未签到
+        </span>
+    <button id="btn">签到</button>
+    <script>
+        var in1=document.getElementById('in1');
+        var btn1=document.getElementById('btn1');
+        var arr=['陈豆豆','张雨','王世隆','余成林','胡庆威','姜帅杰','范恒科','吴宗耀'];
+        var arr1=[];
+        var str=arr.join();
+        span.innerHTML=arr;
+        btn.onclick = function () {
+            if (arr.indexOf(in1.value) == -1) {
+                alert('未签到');
+            } else {
+                arr1.push(in1.value);
+                var reg = new RegExp(arr1, 'g');
+                span.innerHTML = str.replace(reg, '');
+                console.log(arr1);
+            }
+        }
+
+    </script>
+</body>
 </html>
