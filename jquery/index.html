@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="jquery.js"></script>
+	    <style>
+	    	table{ 
+	    		text-align: center;
+	    	}
+	    	img{
+	    		width:100px;
+	    		height:100px;
+	    	}
+	    </style>
+	</head>
+	<body>
+		<table>
+        <tr>
+            <td>选择</td>
+            <td>商品</td>
+            <td>商品信息</td>
+            <td>单价</td>
+            <td>数量</td>
+            <td>合计</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td><img src="img/1.png"/></td>
+            <td>Vivo X27</td>
+            <td><span class="Price">￥2960</span></td>
+            <td>
+            	<button class="plus">+</button>
+            	<span class="count">0</span>
+            	<button class="reduce">-</button>
+            </td>
+            <td><span class="Prices">￥2960</span></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td><img src="img/2.jpg"/></td>
+            <td>iPhone11</td>
+            <td><span class="Price">￥10000</span></td>
+            <td>
+            	<button class="plus">+</button>
+            	<span class="count">0</span>
+            	<button class="reduce">-</button>
+            </td>
+            <td><span class="Prices">￥10000</span></td>
+        </tr>
+        <tr>
+        	<td></td>
+        	<td></td>
+        	<td></td>
+        	<td></td>
+        	<td>合计:<span class="totalNum">0</span></td>
+        	<td><span class="totalPrice">￥12960</span></td>
+        </tr>
+    </table>
+	<script>
+
+//			$(document).ready(function(){
+//点击增加按钮触发事件
+    $(".plus").click(function(){
+        var count = $(this).parent().children("span");
+//单品数量增加
+        count.text(parseInt(count.text())+1);
+//商品总数增加
+        var totalNum = parseInt($(".totalNum").text());
+        totalNum++
+        $(".totalNum").text(totalNum);
+//计算总价
+        var totalPrice = parseInt($(this).parent().parent().children(".price").text());
+        $(".totalPrice").text(parseInt($(".totalPrice").text())+$(".price"));
+    });
+
+//点击减少按钮触发事件
+     $(".reduce").click(function(){
+        var count = $(this).parent().children("span");
+        if(parseInt(count.text())){
+        count.text(parseInt(count.text())-1);
+        var totalNum = parseInt($(".totalNum").text());
+        totalNum--
+        $(".totalNum").text(totalNum);
+        var totalprice = parseInt($(this).parent().parent().children(".totalprice").text());
+        $(".totalPrice").text(parseInt($(".totalPrice").text())-$(".price"));
+    } else{
+        count.text("0");
+    }
+    });
+// });
+ 
+	</script>
+	</body>
+</html>
